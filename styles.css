@@ -35,6 +35,7 @@ a{
 
 .hero{
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;;
@@ -52,7 +53,7 @@ h1{
     padding: 0;
 }
 
-button{
+.hero-button{
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
@@ -139,3 +140,55 @@ h2{
     font-weight: bold;
     align-self: flex-end;
 }
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 250px;
+}
+
+.cta-box{
+    background-color: #3882F6;
+    flex: 1;
+    padding: 32px 120px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.left{
+    margin-right: auto;
+}
+
+
+.cta-button{
+    border: 2px solid #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    height: auto;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 8px 32px;
+}
+
+
+/*
+    font-size: 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border: 32px;
+*/
